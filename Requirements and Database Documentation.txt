@@ -1,0 +1,12 @@
+DataBase Documentation:
+1 Used collection (initially seperated but then merged into AccessLogs later into the project) 
+Collection Name: AccessLogs
+Fields: StudentID, Timestamp, Status, Name
+
+High Level Requirements: 
+1) Have a database that stores Student ID number and the timestamp
+2) Delete records after 5 years
+3) enable sorting by Time and Student ID
+4) enable filtering by Time and Student ID
+5) Be able to enable or disable an ID at will by an admin account
+6) Allow the admin to log in
