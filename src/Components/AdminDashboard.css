@@ -1,0 +1,53 @@
+/* src/components/AdminDashboard.css */
+.dashboard-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.logout-btn {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+.navigation {
+    margin: 20px 0;
+}
+
+.log-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.log-table th, .log-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.log-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.log-table th {
+    background-color: #4CAF50;
+    color: white;
+}

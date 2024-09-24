@@ -1,0 +1,109 @@
+
+.user-management-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.sort-controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: black;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 0 5px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.sort-btn {
+    background-color: #3498db;
+}
+
+.sort-btn:hover {
+    background-color: #2980b9;
+}
+
+.suspend-btn {
+    background-color: #e74c3c;
+}
+
+.suspend-btn:hover {
+    background-color: #c0392b;
+}
+
+.reactivate-btn {
+    background-color: #2ecc71;
+}
+
+.reactivate-btn:hover {
+    background-color: #27ae60;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+}
+
+
+.filter-controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
